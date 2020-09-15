@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/derp/prebuilt/common/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
 endif
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/derp/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
     dalvik.vm.debug.alloc=0 \
