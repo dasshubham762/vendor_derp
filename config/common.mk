@@ -103,3 +103,7 @@ include vendor/derp/config/packages.mk
 
 # Branding
 include vendor/derp/config/branding.mk
+
+# GApps
+include vendor/google/gms/config.mk
+include vendor/google/pixel/config.mk
