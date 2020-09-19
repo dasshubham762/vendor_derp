@@ -101,6 +101,9 @@ PRODUCT_PACKAGES += \
 # Packages
 include vendor/derp/config/packages.mk
 
+# ThemeOverlays
+include packages/overlays/Themes/themes.mk
+
 # Branding
 include vendor/derp/config/branding.mk
 
